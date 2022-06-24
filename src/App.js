@@ -1,6 +1,17 @@
+import Info from './components/Info/Info';
+import About from './components/About/About';
+import Interests from './components/Interests/Interests';
+import Footer from './components/Footer/Footer';
+import './App.css'
+
 function App() {
   return (
-    <h1>Digital Business Card</h1>
+    <div className="container">
+      <Info />
+      <About />
+      <Interests />
+      <Footer />
+    </div>
   );
 }
 
